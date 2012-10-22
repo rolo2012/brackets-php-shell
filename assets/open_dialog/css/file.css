@@ -1,0 +1,26 @@
+
+#file_view ul li:hover{
+    background-color: blue;
+    cursor:pointer;
+    background-color:#DDEEFF;
+}
+#file_view ul{
+    list-style:disc outside url("../images/file_ico.png");
+}
+#file_view{
+    width: 60%;
+    height: 78%;    
+    float: left;      
+    overflow:auto;    
+    border-color:#EEEEEE;
+    border-style:inset;
+    border-width:2px 2px 2px 0;
+    background-color: #FFF;
+    padding:0 10px 10px 5px;
+}
+
+
+#directory_tree{
+    border-right:1px solid #EEEEFF;   
+    width: 35%;
+}
